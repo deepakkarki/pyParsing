@@ -1,0 +1,20 @@
+pyParsing is a parsing toolkit which can parse strings of LL(1) grammars.
+
+This library is for learning purpose only, for efficient and convenient parsing techniques have a look at ply, 
+a pure python implementation of lex and yacc.
+
+Though the parser is fully functional (includes a tokenizer), there is much work to be done in terms of usability.
+Look at the documentation in /doc (to be written) for more information on this module.
+
+######################## To Do ###########################
+
+# add auto elemination of left recursion, 
+  auto left factoring of the grammars
+# error recovery techniques
+# add attribute passing mechanisims 
+# better way of eading user input. current way of taking the grammar specs
+  from the user is too clunky and error prone. Have to make this better
+# A graphical animation support, to visualize the parsing. 
+  since this library is mainly for learning purpose, this would be great!!
+  
+###########################################################
